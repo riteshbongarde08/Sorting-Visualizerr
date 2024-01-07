@@ -8,7 +8,9 @@
 <li>Selection Sort</li>
 </ul>
 <h3>This is built using HTML, CSS, JavaScript</h3>
+
 <a href="https://sorting-visualizer-tawny-three.vercel.app/">Check website here</a>
+<br>
 <br>
 
 ![img1](https://github.com/adii-1902/Sorting-Visualizer/assets/132136362/3cebed94-0a2e-40dd-ad98-f3bfe9642f17)
