@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sorting Visualizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="sorting.css">
+</head>
+
+<body>
+    <h1>Sorting Visualizer</h1>
+    <!-- navbar start here -->
+    <nav class="navbar custom d-flex justify-content-between">
+        <div class="navbar-first-half d-flex align-items-center">
+            <button class="btn btn-outline-success me-2 new-array-btn" type="button">New Array</button>
+            <div class="ranges">
+                | No. of Bars :
+                <input id="bar-size" type="range" min="20" max="100" step=1 value=40>
+            </div>
+            <div class="ranges">
+                | Speed :
+                <input id="speed" type="range" min="20" max="300" stepDown=10 value=60>
+            </div>
+        </div>
+        <div class="navbar-second-half d-flex justify-content-between">
+            <button class="btn btn-sm btn-outline-secondary text-white bubble-sort" type="button">Bubble Sort</button>
+            <button class="btn btn-sm btn-outline-secondary text-white insertion-sort" type="button">Insertion
+                Sort</button>
+            <button class="btn btn-sm btn-outline-secondary text-white merge-sort" type="button">Merge Sort</button>
+            <button class="btn btn-sm btn-outline-secondary text-white quick-sort" type="button">Quick Sort</button>
+            <button class="btn btn-sm btn-outline-secondary text-white selection-sort" type="button">Selection
+                Sort</button>
+        </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- bars start here -->
+    <div id="bars">
+    </div>
+    <!-- bars end here -->
+
+
+
+    <!-- script start here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="js_files/bubble.js"></script>
+    <script src="js_files/insertion.js"></script>
+    <script src="js_files/merge.js"></script>
+    <script src="js_files/quick.js"></script>
+    <script src="js_files/selection.js"></script>
+    <script src="js_files/sorting.js"></script>
+    <!-- script end here -->
+</body>
+
+</html>

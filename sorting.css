@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-align: center; */
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-bg-color: #1D2B53;
+    --bs-font-color: #fff;
+}
+
+body {
+    background-color: var(--bs-bg-color);
+    color: var(--bs-font-color);
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.custom {
+    background-color: #101c3d;
+}
+
+#bars {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.bar-class {
+    width: 10px;
+    flex-grow: 1;
+    background-color: #FAEF5D;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.navbar-first-half {
+    width: 60%;
+}
+
+.navbar-second-half {
+    width: 40%;
+}
+
+.ranges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    margin: 2px;
+}
+
+.ranges input {
+    margin-left: 2px;
+}
