@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    /* text-align: center; */
     box-sizing: border-box;
 }
 
@@ -31,8 +30,8 @@ h1 {
 #bars {
     display: flex;
     justify-content: center;
-    width: auto;
-    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
 }
 
@@ -44,12 +43,27 @@ h1 {
     border: 1px solid black;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar-first-half,
+.navbar-second-half {
+    display: flex;
+    align-items: center;
+}
+
 .navbar-first-half {
-    width: 60%;
+    flex-grow: 1;
+    justify-content: flex-start;
 }
 
 .navbar-second-half {
-    width: 40%;
+    justify-content: flex-end;
 }
 
 .ranges {
@@ -62,4 +76,42 @@ h1 {
 
 .ranges input {
     margin-left: 2px;
+    max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #bars {
+        flex-wrap: wrap;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .bar-class {
+        width: 5px;
+    }
+
+    .ranges {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ranges input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    #bars {
+        margin-left: 2%;
+        width: 96%;
+    }
+
+    .bar-class {
+        width: 3px;
+    }
 }
