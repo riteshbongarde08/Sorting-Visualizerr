@@ -9,7 +9,7 @@
 </ul>
 <h3>This is built using HTML, CSS, BootStrap, JavaScript</h3>
 
-<a href="https://visual-sort-magic.netlify.app/" >Click here for live Website</a>
+<a href="https://sorting-magics.netlify.app/" >Click here for live Website</a>
 <br>
 <br>
 
