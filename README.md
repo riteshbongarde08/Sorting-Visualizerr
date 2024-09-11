@@ -15,6 +15,6 @@
 
 ![img1](https://github.com/riteshbongarde08/Sorting-Visualizer/blob/master/img/img1.png)
 
-![img2](https://github.com/riteshbongarde08/Sorting-Visualizer/blob/master/img/img2.png)
+![img2](https://github.com/riteshbongarde08/Sorting-Visualizer/img/img2.png)
 
 ![img3](https://github.com/riteshbongarde08/Sorting-Visualizer/blob/master/img/img3.png)
