@@ -13,7 +13,7 @@
 <br>
 <br>
 
-![img1](https://github.com/riteshbongarde08/Sorting-Visualizerr/blob/master/img/img1.png)
+![img1](https://github.com/riteshbongarde08/Sorting-Visualizerr/blob/main/img/img1.png)
 
 ![img2](https://github.com/riteshbongarde08/Sorting-Visualizerr/blob/master/img/img2.png)
 
